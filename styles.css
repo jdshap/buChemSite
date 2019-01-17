@@ -1,0 +1,147 @@
+ body{
+     background:#f0f0f0;
+     color:#333333;
+     font-family: "Times";
+     width:100%;
+     margin:0;
+}
+ h1{
+     color:#bc9b6a;
+     font-family: "Helvetica";
+}
+ a {
+     all: unset;
+}
+ .hyper:hover{
+     text-decoration:underline;
+}
+ button{
+     padding:0;
+     border: none;
+}
+ #menubutton{
+     font-size:40px;
+     vertical-align:top;
+     padding:10px;
+     clip:rect(0px,60px,200px,0px);
+}
+ #menubutton:hover{
+     cursor: pointer;
+     text-shadow: 0px 0px 4px white;
+}
+ .bar{
+     background:#760019;
+     color:#f8f8f8;
+     width:100%;
+     height:50px;
+     position:fixed;
+     top:0;
+     margin:0;
+     padding:0;
+     border:0;
+     z-index: 2;
+     box-shadow: 0 3px 10px grey;
+}
+ .sidebar{
+     background:#e8e8e8;
+     color:#760019;
+     line-height:30px;
+     height:0px;
+     position:fixed;
+     top:50px;
+     left:0;
+     margin:0;
+     border:0;
+     padding-left:10px;
+     padding-right:10px;
+     display:block;
+     overflow: hidden;
+     transition: height 0.5s;
+     z-index: 1;
+     box-shadow: 0 3px 5px grey;
+}
+ .sidebar span{
+     display:block;
+}
+ .sidebar div{
+     padding:0 0 10px 10px;
+}
+ .sidebar .link{
+     background:#e8e8e8;
+}
+ .sidebar .link:hover{
+     background:#e0e0e0;
+     cursor:pointer;
+}
+ .sidebar-menu{
+     font-size:40px;
+     cursor:pointer;
+}
+ .bodyimg{
+     box-shadow: 0 3px 5px black;
+     height:300px;
+}
+ #slideshow{
+     width:100%;
+     background-color:#333;
+     align-self:center;
+     margin-top:50px;
+     padding-top:10px;
+     padding-bottom:10px;
+}
+ .link-button{
+     min-width:100px;
+     max-width:300px;
+     height:50px;
+     line-height:50px;
+     padding:0;
+     background:#760019;
+     color:#f8f8f8;
+     font-family: "Helvetica";
+     margin:auto;
+     box-shadow: 0 3px 3px grey;
+}
+ .link-button div{
+     margin:auto;
+}
+ .link-button:hover{
+     box-shadow: 0 3px 10px grey;
+}
+ .container{
+     background:#f8f8f8;
+     width:70%;
+     margin:auto;
+     padding:0;
+     z-index:0;
+}
+ .column{
+     margin:20px;
+}
+ .column div{
+     padding-left: 1em;
+     font-size:20px;
+     font-weight:bold;
+}
+ .column p{
+     padding-left: 2em;
+     font-weight:normal;
+     font-size:16px;
+}
+ .column h2{
+     padding-left: 1em;
+     font-weight:bold;
+     font-size:16px;
+}
+ .footer{
+     background:#760019;
+     color:#f8f8f8;
+     width:100%;
+     height:50px;
+     margin:auto;
+     position:relative;
+     top:0px;
+     line-height:25px;
+}
+ .hyper a:hover{
+     text-decoration:underline;
+}
